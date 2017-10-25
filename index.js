@@ -10,5 +10,6 @@ dispatch.hook('S_LOGIN', 2, (event) => {
 		dispatch.toClient('S_FONT_SWAP_INFO', 2, {
 			abnormalityKind: abn
 		})
+		command.message('Crit effect set!')
 	})
 }
