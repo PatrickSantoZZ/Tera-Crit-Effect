@@ -1,7 +1,7 @@
 # Crit-Effect
 free dragon crits
 ![Screenshot](https://i.imgur.com/QCknoIF.jpg)
-
+This is a client side mod and does not actually give you the effect, merely changes the appearance of your crits.
 ## Commands:
 
 Command | Argument(s) | Usage | Description
