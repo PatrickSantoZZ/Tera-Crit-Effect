@@ -1,6 +1,6 @@
 # Crit-Effect
 free dragon crits
-![Screenshot](i.imgur.com/QCknoIF.jpg)
+![Screenshot](https://i.imgur.com/QCknoIF.jpg)
 
 ## Commands:
 
