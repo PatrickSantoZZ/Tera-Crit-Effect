@@ -1,15 +1,9 @@
-const Command = require('command')
+module.exports = function Crit_Mod(mod) {
 
-module.exports = function Critmod(dispatch) {
-	const command = Command(dispatch)
-
-dispatch.hook('S_LOGIN', 2, (event) => {
-		pcid = event.cid;
-})
-	command.add('crit', (abn) => {
-		dispatch.toClient('S_FONT_SWAP_INFO', 2, {
-			abnormalityKind: abn
-		})
-		command.message('Crit effect set!')
-	})
-}
+    mod.command.add('crit', (abn) => {
+        mod.send('S_FONT_SWAP_INFO', 3, {
+            id: abn
+        });
+        mod.command.message(`Crit effect set to ${abn}.`);
+    });
+};
